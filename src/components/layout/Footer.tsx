@@ -44,13 +44,7 @@ export default function Footer() {
              <p className="font-body text-white/50 text-base leading-relaxed mb-10 max-w-sm break-words">
                 Elevando o padrão de cuidado animal em Balneário Camboriú. Medicina de precisão com o acolhimento que seu pet merece.
              </p>
-             <div className="flex gap-4">
-                {[Globe, Sparkles, Mail].map((Icon, i) => (
-                  <a key={i} href="#" className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white/40 hover:text-accent hover:bg-white/10 transition-all" aria-label="Rede Social">
-                     <Icon size={20} />
-                  </a>
-                ))}
-             </div>
+             
           </article>
 
           {/* Navigation Link Groups */}
@@ -102,7 +96,7 @@ export default function Footer() {
 
         {/* Legal and Copyright Bar */}
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
-           <p className="font-body text-[10px] text-white/20 uppercase tracking-widest">© {new Date().getFullYear()} Maxnay Veterinary. CNPJ: 00.000.000/0000-00</p>
+           <p className="font-body text-[10px] text-white/20 uppercase tracking-widest">© {new Date().getFullYear()} Davi Maximo Quoos</p>
            <nav className="flex gap-8">
               <a href="#" className="font-body text-[10px] text-white/20 hover:text-white/40 uppercase tracking-widest transition-colors">Privacidade</a>
               <a href="#" className="font-body text-[10px] text-white/20 hover:text-white/40 uppercase tracking-widest transition-colors">Termos</a>
