@@ -4,13 +4,13 @@ import Button from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
 import { MessageCircle, Mail, MapPin, Clock, Phone, Heart, Globe, Sparkles } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/554712345679?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta!";
+const WHATSAPP_URL = "https://wa.me/5551995204679?";
 
 const navLinks = [
   { label: "Quem Somos", href: "#sobre" },
   { label: "Nosso Time", href: "#equipe" },
   { label: "Serviços", href: "#servicos" },
-  { label: "Ajuda", href: "#faq" },
+  { label: "Depoimentos", href: "#depoimentos" },
 ];
 
 const serviceLinks = [
@@ -80,7 +80,7 @@ export default function Footer() {
                 </div>
                 <div className="flex gap-4 items-center">
                    <Phone size={20} className="text-secondary shrink-0" />
-                   <div className="font-body text-sm font-bold text-white">(47) 1234-5679</div>
+                   <div className="font-body text-sm font-bold text-white">(51) 99520-4679</div>
                 </div>
                 <div className="flex gap-4 items-center">
                    <Clock size={20} className="text-accent shrink-0" />

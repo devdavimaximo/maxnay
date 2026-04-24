@@ -11,7 +11,8 @@ const navLinks = [
   { name: "Sobre", href: "#sobre" },
   { name: "Serviços", href: "#servicos" },
   { name: "Equipe", href: "#equipe" },
-  { name: "FAQ", href: "#faq" },
+  { name: "Depoimentos", href: "#depoimentos" },
+  // { name: "FAQ", href: "#faq" },
 ];
 
 const WHATSAPP_URL = "https://wa.me/554712345679?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta!";

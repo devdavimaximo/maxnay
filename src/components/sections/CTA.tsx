@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 const WHATSAPP_URL =
-  "https://wa.me/554712345679?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta!";
+  "https://wa.me/5551995204679?";
 
 const badges = [
   { icon: Star, label: "4.9★ Google" },

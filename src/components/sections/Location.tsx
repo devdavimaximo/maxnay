@@ -6,7 +6,7 @@ import Container from "@/components/ui/Container";
 import Heading from "@/components/ui/Heading";
 import { MapPin, Clock, Phone, Navigation, MessageCircle } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/554712345679?text=Ol%C3%A1%2C%20como%20chego%20%C3%A0%20Maxnay%20Veterin%C3%A1ria%3F";
+const WHATSAPP_URL = "https://wa.me/5551995204679";
 
 const openingHours = [
   { day: "Segunda a Sexta", time: "08h – 20h" },
@@ -78,7 +78,7 @@ export default function Location() {
                     </div>
                     <div>
                       <p className="font-body text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-1">Telefone</p>
-                      <p className="font-heading font-bold text-2xl text-primary leading-none">(47) 1234-5679</p>
+                      <p className="font-heading font-bold text-2xl text-primary leading-none">(51) 99520-4679</p>
                     </div>
                  </div>
                  <Button href={WHATSAPP_URL} variant="secondary" size="md" className="w-full md:w-auto">

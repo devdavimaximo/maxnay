@@ -25,7 +25,7 @@ export default function Home() {
         <Team />
         <Testimonials />
         <Location />
-        <FAQ />
+        {/* <FAQ /> */}
         <CTA />
       </main>
       <Footer />
